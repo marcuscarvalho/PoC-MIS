@@ -1,0 +1,28 @@
+
+<form id="1530286490">
+<property name="name" value="DeptDetails-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="department_name" type="InputText" id="1455253421">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (department)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="dept_in/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="department_manager" type="InputText" id="430297031">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;manager (department)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="dept_in/manager"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="department_id" type="InputTextPrimitiveInteger" id="1828456625">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (department)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="dept_in/id"/>
+<property name="fieldClass" value="int"/>
+</field>
+<dataHolder inputId="dept_in" name="#FF54A7" type="dataModelerEntry" outId="" value="com.myteam.poc1.deptDetails" id="department"/>
+</form>

@@ -1,0 +1,14 @@
+
+<form id="1361004939">
+<property name="name" value="Getnumberofdepts-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="number_depts" type="InputTextInteger" id="1448910390">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberOfDepts (number_depts)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="numberOfDepts"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="numberOfDepts" value="java.lang.Integer" id="number_depts"/>
+</form>
